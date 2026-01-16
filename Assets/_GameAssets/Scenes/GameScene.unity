@@ -516,7 +516,7 @@ GameObject:
   - component: {fileID: 368771637}
   - component: {fileID: 368771636}
   m_Layer: 0
-  m_Name: RightWheel
+  m_Name: LeftWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1277,6 +1277,7 @@ GameObject:
   - component: {fileID: 1156478932}
   - component: {fileID: 1156478933}
   - component: {fileID: 1156478934}
+  - component: {fileID: 1156478935}
   - component: {fileID: 1156478931}
   - component: {fileID: 1156478930}
   m_Layer: 0
@@ -1394,6 +1395,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b48e24555b2b37b4e84686f5ea61ffa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1156478935
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156478929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2897365c7eea4b74d8648e71f7048a9c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerAnimator: {fileID: 4110639690067324208}
 --- !u!1 &1157068882
 GameObject:
   m_ObjectHideFlags: 0
@@ -2104,6 +2118,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4110639690067324207}
+  - component: {fileID: 4110639690067324208}
   m_Layer: 0
   m_Name: PlayerVisual
   m_TagString: Untagged
@@ -2121,7 +2136,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1085831432595236467}
   m_Layer: 0
-  m_Name: root
+  m_Name: Root
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2163,6 +2178,28 @@ Transform:
   - {fileID: 368771638}
   m_Father: {fileID: 1156478932}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4110639690067324208
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3620961893321406357}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0f4d84c15e5637f459f5b80cd4203531, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!137 &4460750302410579857
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 0
@@ -2330,13 +2367,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8955382516256847674}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.6585921, y: -0.10461946, z: -0.06674214, w: 0.7421972}
-  m_LocalPosition: {x: -0.0020574683, y: 0.002462801, z: -0.0009049181}
+  m_LocalRotation: {x: -0.5206612, y: -0.16822368, z: -0.0731037, w: 0.83382773}
+  m_LocalPosition: {x: -0.0020900148, y: 0.0024400817, z: -0.00075000187}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1085831432595236467}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -63.237, y: -26.998, z: 6.793}
 --- !u!1 &6213746249008804893
 GameObject:
   m_ObjectHideFlags: 0
@@ -2383,7 +2420,7 @@ GameObject:
   - component: {fileID: 1000467730348886549}
   - component: {fileID: 5807908160198940025}
   m_Layer: 0
-  m_Name: LeftGlow
+  m_Name: RightWheel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2397,13 +2434,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5550261176845588514}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.4447537, y: -0.52675736, z: -0.48205104, w: 0.5406918}
-  m_LocalPosition: {x: 0.00024978188, y: 0.0023758067, z: 0.0022990608}
+  m_LocalRotation: {x: -0.39750183, y: -0.5812509, z: -0.36980793, w: 0.6061203}
+  m_LocalPosition: {x: 0.00024972996, y: 0.002375861, z: 0.002299109}
   m_LocalScale: {x: 1, y: 1.0000001, z: 1.0000001}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1085831432595236467}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -65.751, y: -88.845, z: 1.926}
 --- !u!4 &8872510532433742240
 Transform:
   m_ObjectHideFlags: 0
