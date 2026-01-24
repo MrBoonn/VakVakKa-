@@ -12,6 +12,12 @@ public class ThirdPersonCameraController : MonoBehaviour
 
     private void Update()
     {
+        if(GameManager.Instance.GetCurrentGameState() != GameState.Play
+            && GameManager.Instance.GetCurrentGameState() != GameState.Resume)
+        {
+            return;
+        }
+
         // Kamera hangi yöne bakıyorsa, orientation o yöne bakacak
         _orientationTransform.forward = transform.forward;
 
