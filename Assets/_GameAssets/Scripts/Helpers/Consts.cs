@@ -21,6 +21,15 @@ public class Consts
         public const string IS_SLIDING_ACTIVE = "IsSlidingActive";
     }
 
+    public struct CatAnimatons
+    {
+        public const string IS_IDLING = "IsIdling";
+        public const string IS_WALKING = "IsWalking";
+        public const string IS_RUNNING = "IsRunning";
+        public const string IS_ATTACKING ="IsAttacking";
+    }
+
+
     public struct OtherAnimations
     {
         public const string IS_SPATULA_JUMPING = "IsSpatulaJumping"; 
