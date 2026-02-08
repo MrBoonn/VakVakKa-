@@ -9512,9 +9512,13 @@ MonoBehaviour:
   _blackBackgroundObject: {fileID: 1563448934}
   _settingsButton: {fileID: 654615763}
   _musicButton: {fileID: 1164035451}
-  _soundsButton: {fileID: 528569185}
+  _soundButton: {fileID: 528569185}
   _resumeButton: {fileID: 273652464}
   _mainMenuButton: {fileID: 1181975729}
+  _musicActiveSprite: {fileID: 21300000, guid: 572d015c0604b0b49b09265a1072b1d4, type: 3}
+  _musicPassiveSprite: {fileID: 21300000, guid: 5f1b2ea972b168448b4c057a28eb7f2a, type: 3}
+  _soundActiveSprite: {fileID: 21300000, guid: b70c31f4b7494cf40ad2dfcb839120cf, type: 3}
+  _soundPassiveSprite: {fileID: 21300000, guid: 11231ee54f9eb5948b175a2a69b0d050, type: 3}
   _animationDuration: 0.3
 --- !u!1001 &1735683296
 PrefabInstance:
